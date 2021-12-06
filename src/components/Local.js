@@ -3,7 +3,11 @@ import { connect } from "react-redux";
 
 class Local extends Component {
   render() {
-    return <div>Local</div>;
+    return (
+      <main className="main_container">
+        <h1>Simpan data di localstorage</h1>
+      </main>
+    );
   }
 }
 const mapStateToProps = (state) => ({});

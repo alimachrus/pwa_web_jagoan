@@ -3,7 +3,11 @@ import { connect } from "react-redux";
 
 class Notif extends Component {
   render() {
-    return <div>Notif</div>;
+    return (
+      <main className="main_container">
+        <h1>Web Push Notification</h1>
+      </main>
+    );
   }
 }
 const mapStateToProps = (state) => ({});

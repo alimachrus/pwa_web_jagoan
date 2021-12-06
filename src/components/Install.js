@@ -3,7 +3,11 @@ import { connect } from "react-redux";
 
 class Install extends Component {
   render() {
-    return <div>Install</div>;
+    return (
+      <main className="main_container">
+        <h1>Installable</h1>
+      </main>
+    );
   }
 }
 const mapStateToProps = (state) => ({});

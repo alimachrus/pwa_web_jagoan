@@ -1,13 +1,16 @@
+//Library yang diimport
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
+//Komponen dipisah perhalaman
 import Home from "./components/Home";
 import Responsive from "./components/Responsive";
 import Install from "./components/Install";
 import Local from "./components/Local";
 import Notif from "./components/Notif";
 import store from "./store";
-
+import "./App.css";
+//return halaman
 function App() {
   return (
     <Provider store={store}>
@@ -24,5 +27,5 @@ function App() {
     </Provider>
   );
 }
-
+//export App untuk dimasukkan ke dalam index.js
 export default App;

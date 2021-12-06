@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+/* Mematikan style default dari html link yang sudah jadul */
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Mematikan style default dari html button yang sudah jadul */
+button {
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style default dari komponen dengan nama class button_main */
+.button_main {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  max-width: 70vw;
+  max-height: 70vw;
+  border-radius: 20px;
+  background-color: aquamarine;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Style button_main ketika di hover */
+.button_main:hover {
+  background-color: #d7336eff;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style default dari komponen dengan nama class main_container */
+.main_container {
+  padding-top: 50px;
+  text-align: center;
 }

@@ -3,7 +3,11 @@ import { connect } from "react-redux";
 
 class Responsive extends Component {
   render() {
-    return <div>Responsive</div>;
+    return (
+      <main className="main_container">
+        <h1>Responsive</h1>
+      </main>
+    );
   }
 }
 const mapStateToProps = (state) => ({});
