@@ -14,8 +14,120 @@ button {
   font-family: "Inter", sans-serif;
 }
 
-/* Style default dari komponen dengan nama class button_main */
-.button_main {
+::placeholder {
+  color: #575757;
+}
+
+:-ms-input-placeholder {
+  color: #cecece;
+}
+
+::-ms-input-placeholder {
+  color: #cecece;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+select:-webkit-autofill,
+select:-webkit-autofill:hover {
+  box-sizing: border-box;
+  background-color: transparent;
+  margin: auto;
+  text-align: left;
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+input {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  border: 1px solid #aeb0b1ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #515151;
+  height: 40px;
+  min-height: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+textarea {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  border: 1px solid #aeb0b1ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #515151;
+  min-height: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+select {
+  width: 70%;
+  margin-bottom: 5px;
+  display: inline-block;
+  border: 1px solid #aeb0b1ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: normal;
+  color: #515151;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+}
+
+.radio_button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 2rem;
+  border: 3px solid #aeb0b1ff;
+  margin-right: 10px;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Style default dari komponen dengan nama class main_container */
+.main_container {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* Style default dari komponen dengan nama class name_container */
+.name_container {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  max-width: 70vw;
+  max-height: 70vw;
+  border-radius: 20px;
+  background-color: aquamarine;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* Style default dari komponen dengan nama class button_square */
+.button_square {
   box-sizing: border-box;
   width: 150px;
   height: 150px;
@@ -26,14 +138,36 @@ button {
   margin: 10px;
 }
 
-/* Style button_main ketika di hover */
-.button_main:hover {
+/* Style button_square ketika di hover */
+.button_square:hover {
   background-color: #d7336eff;
   color: white;
 }
 
-/* Style default dari komponen dengan nama class main_container */
-.main_container {
-  padding-top: 50px;
+/* Style default dari komponen dengan nama class button_main */
+.button_main {
+  background-color: #fff;
+  color: #d7336eff;
+  border: 2px solid #d7336eff;
+  padding: 5px 21px 5px 21px;
   text-align: center;
+  display: inline-block;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 7px;
+}
+
+/* Style button_main ketika di hover */
+.button_main:hover {
+  background-color: #d7336eff;
+  color: white;
+  border: 2px solid #d7336eff;
+}
+
+/* Style default dari komponen dengan nama class form */
+.form {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
