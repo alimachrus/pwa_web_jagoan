@@ -93,18 +93,6 @@ select {
   background-color: #ffffff;
 }
 
-.radio_button {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 2rem;
-  border: 3px solid #aeb0b1ff;
-  margin-right: 10px;
-  vertical-align: top;
-  cursor: pointer;
-  text-align: center;
-}
-
 /* Style default dari komponen dengan nama class main_container */
 .main_container {
   padding-top: 50px;
